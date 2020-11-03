@@ -7,8 +7,7 @@ Liu, L., & Ruan, J. (2013). Network-based pathway enrichment analysis. In 2013 I
 
 
 ## USAGE
-$ python NetPEA/run_netpea.py -r RESTART_PATH -ppi PPI_PATH -p PATHWAY_PATH [-e EXPRESSION_PATH] [-s SEED_INT]
-                     [-n PERMUTATION_INT] [-c CPU_INT] -o OUT_PATH
-                     
+1. perform NetPEA with gene expression
+$ python /NetPEA/run_netpea.py -r /example_data/GeneMutation.Mat.txt -ppi ./example_data/9606.protein_name.links.v11.0.pkl -p ./example_data/c2.cp.pid.v7.1.symbols.gmt -c 1 -n 10 -o ./example_run
 
 
