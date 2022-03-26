@@ -1,4 +1,4 @@
-# NetPEA
+# NetPEApy
 Re-implementation of Network-Based Pathway Enrichment Analysis by Liu et al., 2013
 
 ## Reference
